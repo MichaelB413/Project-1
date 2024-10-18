@@ -1,7 +1,7 @@
 
 
 const getData = () => {
-    fetch ()
+    fetch (https://api.dictionaryapi.dev/api/v2/entries/en/cudweed)
     .then(response => response.json())
     .then(jsonData => console.log(jsonData))
     return jsonData
