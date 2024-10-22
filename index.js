@@ -7,10 +7,10 @@ const getData = (inputValue) => {
     .then(jsonResponse => {
         document.querySelector("#newList").innerHTML =
         `<ul>
-            <li>Word: ${jsonResponse[0].word}</li>
-            <li>Part Of Speech: ${jsonResponse[0].meanings[0].partOfSpeech}</li>
-            <li>Definition: ${jsonResponse[0].meanings[0].definitions[0].definition}</li>
-            <li>Synonyms: ${jsonResponse[0].meanings[0].synonyms}</li>
+            <li><b>Word</b>: ${jsonResponse[0].word}</li>
+            <li><b>Part Of Speech</b>: ${jsonResponse[0].meanings[0].partOfSpeech}</li>
+            <li><b>Definition</b>: ${jsonResponse[0].meanings[0].definitions[0].definition}</li>
+            <li><b>Synonyms</b>: ${jsonResponse[0].meanings[0].synonyms}</li>
         </ul>`
         
         console.log(jsonResponse[0].word);
