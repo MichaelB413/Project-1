@@ -1,4 +1,9 @@
 
+html {
+    background-color: #f3f4f6;
+  }
+
+
 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
@@ -14,25 +19,26 @@ h2 {
     font-size: 20px;
     text-align: center;
     font-style: italic;
-    margin-top: 10;
+    margin-top: 5;
     margin-bottom: 40;
     color: red;
 }
-
 
 img {
     background: #5c5c69;
     border: 1px solid #74747e;
     padding: 4px;
     height: 200px;
-    margin: 0 0 60px 250px;
+    margin: 0 0 60px 240px;
+}
+
+
+.box{
+    width: 100%;
+    text-align: center;
+    line-height: 5;
 }
 /* .lloyd{ 
     background-image: no-repeat center/80% url(https://ipoxstudios.com/wp-content/uploads/2014/08/jim-carrey-dumb-dumber.jpg);
     /* background: no-repeat center/80% url(https://media1.tenor.com/m/9Mpx1N98TMcAAAAC/dumb-and-dumber-jim-carrey.gif);  */
 */
-.box{
-    width: 100%;
-    text-align:center;
-    line-height: 10;
-}
