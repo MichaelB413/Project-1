@@ -3,7 +3,7 @@ html {
     background-color: #f3f4f6;
   }
 
-
+/* //Create clean-looking text and background  */
 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
@@ -13,7 +13,7 @@ h1 {
     text-shadow: 1px 1px 1px black;
 }
 
-
+/* subtitle */
 h2 {
     font-weight: bold;
     font-size: 20px;
@@ -23,22 +23,33 @@ h2 {
     margin-bottom: 40;
     color: red;
 }
-
+/* Lloyd gif */
 img {
     background: #2e2e33;
     border: 1px solid #414146;
     padding: 4px;
     height: 200px;
     margin: 0 0 40px 0;
-    align-self: normal;    
+    align-self: normal;
+    box-shadow:inset;   
 }
-
+/* center image */
 .center{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: auto;
 }
+/* make mirror image */
+
+/* .photos > * {
+    background-image: url("https://media1.tenor.com/m/9Mpx1N98TMcAAAAC/dumb-and-dumber-jim-carrey.gif");
+}
+
+.photos > :last-child {
+    transform: rotateX('180') translateY(15px);
+} */
+
 
 
 .box{
@@ -47,7 +58,7 @@ img {
     line-height: 5;
 }
 
-
+/* format ul */
 ul {
     padding-left: 1rem;
     list-style-type: none;
@@ -60,7 +71,8 @@ ul li {
     padding-left: 2rem;
     background-position: 0 0;
     background-size: 2rem 2rem;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
 }
 
 
